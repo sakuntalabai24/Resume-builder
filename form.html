@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            line-height: 1.3;
+            margin: 0;
+            padding: 0;
+            font-family: cursive;
+            font-size: 1.2em;
+            
+        }
+        .resume-container {
+            display: flex;
+            width: 80%;
+            max-width: 900px;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            color: rgb(7, 57, 57);
+            font-size: 1em;
+           
+        }
+        .profile, .contact {
+            padding: 40px;
+        }
+       
+        
+        .profile {
+            background-color: #bed3c3;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-left: 20px;
+            border-right: 2px solid #e0e0e0;
+            margin: 4px;
+        }
+        .profile-photo {
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            
+        }
+        .profile-photo:hover{
+            filter:brightness(0.8);
+        }
+        .skills a {
+            text-decoration: none;
+            color: rgb(7, 57, 57);
+           text-align: center;
+        }
+        
+        .skills img:hover{
+            transform: scale(0.9);
+        }
+        .contact {
+            width: 180%;
+            background-color: rgb(108, 165, 165);
+            margin: 2px;
+        }
+        .contact h2 {
+            color:  rgb(7, 57, 57);
+            border-bottom: 2px solid black;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+            border-radius: 40px;
+        }
+        .contact p, .contact ul {
+            margin: 10px 0;
+            color:  rgb(7, 57, 57);
+        }
+        .contact ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .contact ul li {
+            color: #bed3c3;
+            padding: 18px;
+            margin-bottom: 8px;
+            border-left: 5px solid #333;
+            border-right: 5px solid #584a4a;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .contact a {
+            padding: 10px 20px;
+            background-color: #bed3c3; 
+            color: rgb(7, 57, 57);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 40px;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            background-color: #1dd2b4;
+        }
+        .button{
+          margin-top: 100px;
+          text-align: center;
+        }
+        
+        ::placeholder{
+            font-size: 15px;
+        }
+        .contact a:hover {
+            background-color: 1dd2b4;
+        }
+        .button{
+            margin-bottom: 10px;
+        }
+        .btn{
+            padding: 10px 20px;
+            background-color: rgb(97, 156, 156); 
+            color:black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            
+            text-decoration: none;
+            
+        }
+        .btn:hover{
+            background-color:#1dd2b4
+        }
+        input{
+            padding: 10px;
+        }
+        .form{
+            margin-left: 5px;
+        }
+        .update{
+            background-color:  #bed3c3;
+            width: 550px;
+            height: 680px;
+           margin-left: 35%;
+            
+        }
+        
+        
+        
+
+    </style>
+</head>
+<body>
+
+    <div class="resume-container">
+        <section class="profile">
+            <img src="https://i.pinimg.com/736x/70/ba/47/70ba47ad37c3c96aa5b975b641cadf9f.jpg" height="240" width="200"
+                alt="Profile Photo" class="profile-photo">
+            <h2>Sukriti Yadav</h2>
+            <p>Web Developer | Programmer</p>
+            <h2>Contact</h2>
+            <p class="icon-text">
+                <i class="fas fa-phone"></i>
+                <span>Phone: +91 1234567890</span>
+            </p>
+            <p class="icon-text">
+                <i class="fas fa-envelope"></i>
+                <span>Email: sukriti@example.com</span>
+            </p>
+
+            <div class="skills">
+                <h2>Projects</h2>
+                <ul class="c">
+                    <li><a href="https://jinsee24.github.io/3.html/"> <img src="game.png" width="25px" height="25px">Memory Game</img></a></li>
+                    <li><a href="https://reshmayadav40.github.io/Travel-Egency/destinations.html"><img src="travel.png" width="25px" height="25px">Travel Agency </img></a></li>
+                    <li><a href="https://sakuntalabai24.github.io/recipe-page/"><img src="recipe.png" width="20px" height="20px">Recipe blog </img></a></li>
+                    <li><a href="https://jinsee24.github.io/profile/"><img src="man.png" width="20px" height="20px">Personal bio </img></a></li>
+                    <li><a href="https://reshmayadav40.github.io/Restaurant/"><img src="spoon.png" width="29px" height="29px">Restaurant web </img></a></li>
+                </ul>
+            </div>
+
+            <h2>Expertise</h2>     
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+            </ul>
+
+            <h2>Languages</h2>
+            <ul>
+                <li>English</li>
+                <li>Hindi</li>
+                <li>Bhojpuri</li>
+                <li>Chhattisgarhi</li>
+            </ul>
+            
+        </section>
+
+        <section class="contact">
+            <h2>Objective</h2>
+            <p>I am a passionate web developer with expertise in HTML, CSS, and JavaScript, dedicated to creating responsive and visually appealing websites.</p>
+
+            <h2>Experience</h2>
+            <ul>
+                I have hands-on experience as a web developer and programmer, with a strong focus on creating responsive websites. Your skills include proficiency in HTML, CSS, JavaScript, and Python, allowing you to build visually appealing and functional web applications.
+            </ul>
+
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Bachelor's in Computer Science</strong> - Jawaharlal Nehru University (2020-2024)</li>
+            </ul>
+
+            <h2>Skills</h2>
+            <div>
+                <ul id="a">Soft Skills
+                    <li>Active Listener</li>
+                    <li>Time Management</li>
+                    <li>Self Motivational</li>
+                    <li>Communication Skills</li>
+                </ul>
+            </div>
+            <div>
+                <ul id="a">Tech Skills
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+            <div class="button">
+            <a href="resume.html">Go Back</a>
+        </div>
+        </section>
+    </div>
+<div class="update">
+    <center>
+    <h2>Update Resume</h2>
+    </center>
+    <form class="form">
+        <table>
+            <tr>
+                <th><label for="name">Name:</label></th>
+                <td> <input type="text" id="name" placeholder="Enter your name"><br><br></td>
+            </tr>
+          <tr>
+       <th><label for="image">Profile Image URL:</label>
+        <td><input type="text" id="image" placeholder="Enter image URL"><br><br>
+        </tr>
+        <tr>
+        <th><label for="phoneInput">Phone:</label>
+        <td><input type="text" id="phoneInput" placeholder="Enter phone number"><br><br>
+</tr>
+<tr>
+       <th> <label for="emailInput">Email:</label>
+        <td><input type="email" id="emailInput" placeholder="Enter email"><br><br>
+</tr>
+<tr>
+     <th>   <label for="objectiveInput">Objective:</label>
+        <td><textarea id="objectiveInput" placeholder="Enter your objective"></textarea><br><br>
+</tr>
+<tr>
+        <th><label for="educationInput">Education:</label>
+        <td><input type="text" id="educationInput" placeholder="Enter education details"><br><br>
+</tr>
+<tr>
+        <th><label for="skillsInput">Skills (comma-separated):</label>
+        <td><input type="text" id="skillsInput" placeholder="Enter skills"><br><br>
+        
+        </table>
+
+       <center><a class="btn" href="form.html">Update Resume</a></center>
+        
+    </form>
+</div>
+
+    
+    <script>
+        function updateResume() {
+            const name = document.getElementById("name").value;
+            const image = document.getElementById("image").value;
+            const phone = document.getElementById("phoneInput").value;
+            const email = document.getElementById("emailInput").value;
+            const objective = document.getElementById("objectiveInput").value;
+            const education = document.getElementById("educationInput").value;
+            const skills = document.getElementById("skillsInput").value;
+    
+            if (name) document.querySelector('.profile h1').innerText = name;
+            if (image) document.querySelector('.profile-photo').src = image;
+            if (phone) document.querySelector('.icon-text span').innerText = "Phone: " + phone;
+            if (email) document.querySelector('.icon-text:nth-of-type(2) span').innerText = "Email: " + email;
+            if (objective) document.querySelector('.contact p').innerText = objective;
+            if (education) document.querySelector('.contact ul li strong').innerText = education;
+    
+            if (skills) {
+                const skillsArray = skills.split(',');
+                const skillsList = document.createElement("ul");
+                skillsArray.forEach(skill => {
+                    const li = document.createElement("li");
+                    li.innerText = skill.trim();
+                    skillsList.appendChild(li);
+                });
+                
+                const techSkillsSection = document.querySelector('.contact div:nth-of-type(2)');
+                techSkillsSection.innerHTML = '<h2>Tech Skills</h2>';
+                techSkillsSection.appendChild(skillsList);
+            }
+        }
+    </script>
+    
+</body>
+</html> 
